@@ -71,6 +71,24 @@ const questions = [
       { text: "Louis Vuitton", correct: false },
     ],
   },
+  {
+    question: "What’s the smallest country in the world? (The Vatican)",
+    answers: [
+      { text: "Madagaskar", correct: false },
+      { text: "The Vatican", correct: true },
+      { text: "Maldives", correct: false },
+      { text: "Bangladesh", correct: false },
+    ],
+  },
+  {
+    question: "What is the capital of Australia?",
+    answers: [
+      { text: "Melbourne", correct: false },
+      { text: "Sydney", correct: false },
+      { text: "Canberra", correct: true },
+      { text: "Perth", correct: false },
+    ],
+  },
 ];
 
 const questionElement = document.getElementById("question");
